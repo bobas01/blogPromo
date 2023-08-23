@@ -1,0 +1,354 @@
+h1,
+h2,
+h4 {
+  font-family: "Pacifico", cursive;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2,
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.article {
+  width: 80%;
+  margin: 50px auto;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.row-limit-size {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header #logoBurger {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+header #logoBurger #logo img {
+  width: 75px;
+  margin-left: 20px;
+}
+header #logoBurger #menuBurger {
+  width: 50px;
+  margin-right: 20px;
+  display: block;
+}
+header nav #menu {
+  display: none;
+}
+header nav #menu li {
+  background-color: #D31E44;
+  border: 1px solid #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 300px;
+}
+header nav #menu li a {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 20px 0;
+}
+header nav #menu.active {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#hero img {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header #logoBurger {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+  header #logoBurger #logo img {
+    width: 75px;
+    margin-right: 50px;
+  }
+  header #logoBurger #menuBurger {
+    display: none;
+  }
+  header nav #menu {
+    display: block;
+    display: flex;
+    width: 70%;
+  }
+  header nav #menu li {
+    background-color: unset;
+    border: 1px solid #fff;
+    padding: 20px 50px;
+    text-align: center;
+    width: 150px;
+  }
+  header nav #menu li a {
+    color: #000;
+    padding: 20px 0;
+  }
+  #hero img {
+    width: 100%;
+    height: unset;
+  }
+}
+#stagiaireHomepage #roster {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#stagiaireHomepage #roster .picStagiaire {
+  margin: 0 auto 50px auto;
+  width: 200px;
+  cursor: pointer;
+}
+#stagiaireHomepage #roster .picStagiaire figure figcaption {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Pacifico", cursive;
+  color: #000;
+}
+
+.articleActuality {
+  width: 80%;
+  margin: 0 auto 50px auto;
+}
+.articleActuality figure img {
+  width: 100%;
+}
+.articleActuality figure figcaption {
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.articleActuality figure figcaption .categorySpan {
+  color: #4B7AA6;
+}
+.articleActuality figure figcaption .date {
+  color: #8F8F8F;
+}
+.articleActuality .txtArticleActuality .linkArticle {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .articleActuality {
+    width: 80%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .articleActuality figure {
+    width: 30%;
+  }
+  .articleActuality figure img {
+    width: 100%;
+  }
+  .articleActuality figure figcaption {
+    font-size: 0.8rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+  }
+  .articleActuality figure figcaption .categorySpan {
+    color: #4B7AA6;
+  }
+  .articleActuality figure figcaption .date {
+    color: #8F8F8F;
+  }
+  .articleActuality .txtArticleActuality {
+    width: 60%;
+  }
+}
+footer {
+  background-color: #D31E44;
+}
+footer h2 {
+  margin: 50px 0 20px 50px;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+footer form {
+  margin-left: 50px;
+  padding-bottom: 50px;
+  max-width: 570px;
+}
+footer form input {
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+footer form input[type=email] {
+  width: 50%;
+}
+footer form input[type=submit] {
+  width: 30%;
+  margin-left: -10px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+}
+
+#detailsStagiaires .detailsStagiaire {
+  padding: 100px 0 0 0;
+}
+#detailsStagiaires .detailsStagiaire .picStagiaire {
+  margin: 0 auto;
+  width: 200px;
+}
+#detailsStagiaires .detailsStagiaire .picStagiaire figcaption {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 1.2rem;
+}
+#detailsStagiaires .detailsStagiaire .linkeGit a img {
+  margin: 0 10px;
+}
+#detailsStagiaires hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+  #detailsStagiaires .detailsStagiaire {
+    display: flex;
+  }
+  #detailsStagiaires .detailsStagiaire .picStagiaire figcaption {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 1.2rem;
+  }
+  #detailsStagiaires .detailsStagiaire .linkStagiaire {
+    display: flex;
+  }
+  #detailsStagiaires .detailsStagiaire .linkStagiaire a {
+    margin-left: 100px;
+  }
+  #detailsStagiaires .detailsStagiaire .linkStagiaire .linkeGit a:last-child {
+    margin-left: 10px;
+  }
+}
+#categoryList {
+  margin: 50px auto;
+}
+#categoryList #categoryListContainer .oneCategory {
+  padding-bottom: 50px;
+}
+#categoryList #categoryListContainer .oneCategory a {
+  color: #000;
+}
+#categoryList #categoryListContainer .oneCategory a figure img {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+#categoryList #categoryListContainer .oneCategory a article h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 900px) {
+  #categoryList #categoryListContainer {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  #categoryList #categoryListContainer .oneCategory {
+    padding-bottom: 50px;
+  }
+  #categoryList #categoryListContainer .oneCategory a {
+    color: #000;
+  }
+  #categoryList #categoryListContainer .oneCategory a figure img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    height: 175px;
+  }
+  #categoryList #categoryListContainer .oneCategory a article h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+#exempleArticle {
+  margin: 50px auto;
+}
+#exempleArticle h1 {
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+#exempleArticle figure img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+#exempleArticle h2 {
+  margin-bottom: 30px;
+}
+#exempleArticle #buton {
+  width: 80%;
+  margin: 0 auto;
+}
+#exempleArticle #buton button {
+  width: 300px;
+  border: 1px solid #D31E44;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+#exempleArticle #buton button:first-child {
+  color: #fff;
+  background-color: #D31E44;
+  margin-bottom: 25px;
+}
+#exempleArticle #buton button:first-child > :hover {
+  color: #D31E44;
+  background-color: #fff;
+}
+#exempleArticle #buton button:last-child {
+  color: #D31E44;
+  background-color: #fff;
+}
+#exempleArticle #buton button:last-child > :hover {
+  color: #fff;
+  background-color: #D31E44;
+}/*# sourceMappingURL=style.css.map */
