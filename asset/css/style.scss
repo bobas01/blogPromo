@@ -462,6 +462,17 @@ footer {
     h2{
         margin-bottom: 30px;
     }
+    ul li {
+        list-style: square;
+        margin-left: 30px;
+        font-family: $roboto;
+    }
+    ul li:first-child {
+        margin-top: 10px;
+    }
+    ul li:last-child {
+        margin-bottom: 25px;
+    }
     #buton {
         width: 80%;
         margin: 0 auto;
