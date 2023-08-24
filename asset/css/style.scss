@@ -384,6 +384,7 @@ footer {
 //category phone
 #categoryList {
     margin: 50px auto;
+
     #categoryListContainer {
         .oneCategory {
             padding-bottom: 50px;
@@ -416,7 +417,7 @@ footer {
         #categoryListContainer {
             display: grid;
             grid-template-columns: 250px 250px 250px;
-            grid-auto-rows: auto;  
+            grid-auto-rows: auto;
             grid-gap: 10px;
             justify-content: center;
 
@@ -449,35 +450,42 @@ footer {
 
 //exemple article phone
 #exempleArticle {
-    margin:50px auto;
-    h1{
+    margin: 50px auto;
+
+    h1 {
         width: 80%;
         margin: 0 auto 30px auto;
     }
+
     figure img {
         width: 80%;
         margin: 0 auto;
         display: block;
     }
-    h2{
+
+    h2 {
         margin-bottom: 30px;
     }
+
     ul li {
         list-style: square;
         margin-left: 30px;
         font-family: $roboto;
     }
+
     ul li:first-child {
         margin-top: 10px;
     }
+
     ul li:last-child {
         margin-bottom: 25px;
     }
+
     #buton {
         width: 80%;
         margin: 0 auto;
 
-        button{
+        button {
             width: 300px;
             border: 1px solid $red;
             height: 35px;
@@ -485,24 +493,80 @@ footer {
             font-size: 1rem;
             font-weight: 700;
         }
+
         button:first-child {
             color: $white;
-            background-color:$red;
+            background-color: $red;
             margin-bottom: 25px;
-            &>:hover{
+
+            &>:hover {
                 color: $red;
-                background-color:$white; 
+                background-color: $white;
             }
 
         }
+
         button:last-child {
             color: $red;
-            background-color:$white;
-            &>:hover{
+            background-color: $white;
+
+            &>:hover {
                 color: $white;
-                background-color:$red; 
+                background-color: $red;
             }
 
+        }
+    }
+}
+
+
+//404phone
+
+#error404 {
+    height: 100vh;
+    background-color: $red;
+    display: flex;        
+    align-items: center;
+    justify-content: center;
+    div {
+        width: 100%;
+        min-width: 200px;
+        max-width: 500px;
+        h1, p, button, a {
+            font-family: $roboto;
+            font-weight: 700;
+        }
+
+        h1,
+        p {
+            color: $white;
+        }
+
+        h1 {
+            font-size: 8rem;
+        }
+        p{
+            width: 80%;
+            margin: 0 auto;
+        }
+        button {
+            width: 150px;
+            border: 1px solid $white;
+            height: 30px;
+            margin: 25px auto;
+            display: block;
+            background-color: $red;
+            border-radius: 25px;
+            a{
+                color: $white;
+            }
+            &:hover{
+                border: $red;
+                color: $white;
+                a{
+                    color: $red;
+                }
+            }
         }
     }
 }

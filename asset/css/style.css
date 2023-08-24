@@ -362,4 +362,51 @@ footer form input[type=submit] {
 #exempleArticle #buton button:last-child > :hover {
   color: #fff;
   background-color: #D31E44;
+}
+
+#error404 {
+  height: 100vh;
+  background-color: #D31E44;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#error404 div {
+  width: 100%;
+  min-width: 200px;
+  max-width: 500px;
+}
+#error404 div h1, #error404 div p, #error404 div button, #error404 div a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+#error404 div h1,
+#error404 div p {
+  color: #fff;
+}
+#error404 div h1 {
+  font-size: 8rem;
+}
+#error404 div p {
+  width: 80%;
+  margin: 0 auto;
+}
+#error404 div button {
+  width: 150px;
+  border: 1px solid #fff;
+  height: 30px;
+  margin: 25px auto;
+  display: block;
+  background-color: #D31E44;
+  border-radius: 25px;
+}
+#error404 div button a {
+  color: #fff;
+}
+#error404 div button:hover {
+  border: #D31E44;
+  color: #fff;
+}
+#error404 div button:hover a {
+  color: #D31E44;
 }/*# sourceMappingURL=style.css.map */
